@@ -1,0 +1,45 @@
+---
+title: "Week 0 - Sign up and preparation"
+date: 2025-10-24
+---
+
+Hello!
+
+As a short introduction to this blog, I have found that writing down materials and putting it in my own words has always been a great way to help solidify that knowledge, giving me a reference for the future. I am a bit fan of journalling and using notebooks but felt that this might contain content that is valuable to other folks involved with doing the Ultimate Indie course. I guess I'll give a short introduction and what I'm looking to accomplish.
+
+As for me:
+- My name is Mike and I'm based in Sydney, Australia.
+- I have a 10~ year history in full-stack software development, primarily frontend in the last 5 years.
+- When it comes to game development, I've been in tutorial hell forever, but I've still completed many small projects out of those.
+- I have some familiarity with Unity and Godot, with a preference for Unity. When I was much younger, I made small games in QBasic and Visual Basic as well.
+
+Based on the above, I put myself somewhere between a "Game 1" and "Game 2" developer. I plan to use Unity in this course as I have the most familiarity with it. As for the game itself and my own indecisiveness, I currently have 2 game ideas that I'll outline below.
+
+## Game 1 idea:
+I've always been a big fan of vertical shooters and I have very fond memories of playing the [Raptor: Call of the Shadows](https://en.wikipedia.org/wiki/Raptor:_Call_of_the_Shadows) demo we had on our family computer when I was young. I made a similar sort of game at university but never pushed it over the line. I think this game would be quite safe in that there is a GameDev.tv tutorial pretty similar to this kind of game (Laser Defender) that I could use as a base. Some things I'd really like to focus on to give it my own personal touch are:
+- Different upgrades including weapon types and shields (I specifically remember how you could choose a different weapon and then if you got that upgrade again, you'd get a next level version of which might include more bullets or something similar. There's a lot to play with here).
+- If I could complete at least 3 levels and include one boss fight sequence I'd be pretty happy.
+- The art in this style of game is quite simplistic and I think I could get away with trying to do a lot of it myself, I don't have too much of a history with art so it'd be a good opportunity to test those muscles.
+
+## Game 2 idea:
+The dog park.
+
+I actually had this idea today while my wife and I were walking our dog and just watching how much fun she had. There's a big trend in games right now that focuses on emergent gameplay experiences where you spend time with your friends, by this I'm talking about things like R.E.P.O, Peak or Sledding game. I think this idea kind of aligns with those style of games and I'd like to create a very simple 3D environment where players join and control a low-poly dog. It would be a lot more free form compared to other objective-style game. As for the features:
+- Every character will have a boneless, low poly tongue that flapped around everywhere as their dog ran.
+- Dogs can play fetch with an NPC human that will throw a ball or a frisbee with the goal to try catch it in the air.
+- (Stretch challenge) Tug of war with other players and a rope, just a spamming minigame where you both try to pull a piece of rope.
+- Digging in the dirt and trying to find bones or random treasures.
+- A [Zoomies](https://en.wikipedia.org/wiki/Frenetic_random_activity_periods) mechanic where if you succeed at enough activities you can run around at high speeds, your characters eyes bulge out and maybe have access to some advanced mechanics.
+- Ability to grab other dogs and drag them away (if they are AFK, otherwise they can pull back)
+- Ability to spin quickly to try bite and grab your own tail, if you do so you can move around in a circle shape or spin in circles while attached.
+- I plan for the dogs to only have some small additional details, bulged out eyes, a tail and a customisable collar that you can maybe get achievements and unlock different baubles for.
+
+---
+
+Both of these ideas are expandable depending on what kind of feedback I get and what turns out to be fun. As Rick said in the introductory lecture, a large component here will be learning what I don't know and adapting to that. For me, the multiplayer will definitely be the biggest question mark and how difficult interacting with other players will be. That said, I look forward to embracing the challenge and letting myself obsess over these ideas for the next couple of weeks. I've seen that [this gamedev multiplayer course](https://gamedev.tv/courses/unity-multiplayer-netcode) exists and if possible, I'll try complete this to get a good understanding of how to set this all up.
+
+That's it for the week 0 blog. Thanks for taking the time to read, I will look to keep up progress on this blog (and in the discord server) as we go and as we are instructed more.
+
+Mike
+
+#personal #ideas
