@@ -19,7 +19,7 @@ So I've spent a bit more time thinking about it over the last 2 days and looking
 
 So that brings me back to the raptor-clone type game, I'm not 100% sure but I believe the genre would be more aptly named as a vertical-scrolling shoot'em up. We've been told that for a game at this level, we shouldn't be trying to innovate too deeply and make sure we can progress through our unknown unknowns, that said, there's plenty of ideas I have that I will give myself as stretch goals, because putting my own spin on something is probably where the most fun is.
 
-![Desktop View](/assets/img/week-0/weapons-doodle.jpg){: width="810" height="1080" }
+![Desktop View](/assets/img/week-0/weapons-doodle.jpg){: width="405" height="540" }
 _Spent last night doodling on the couch with some weapon ideas._
 
 As a basic outline for the game and what I expect would make it feel "complete", here's what I'm going to initially put down as the must-haves.
