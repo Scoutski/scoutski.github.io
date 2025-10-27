@@ -16,6 +16,6 @@ For now though, that's a lot further down the road than where we are now, right 
 
 I will primarily use this blog to talk about game dev progress as I progress through gamedev.tv's Ultimate Indie program. 
 
-Finally, please consider checking out [my wife's blog](https://lyntco.github.io/) for her thoughts through this process as well! 
+Finally, please consider checking out [my wife's blog](https://lyntco.github.io/){:target="_blank"} for her thoughts through this process as well! 
 
 Thank you for taking the time to read this and here's to crafting great experiences!
