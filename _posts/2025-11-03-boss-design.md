@@ -20,8 +20,9 @@ In the past, I have not applied a game designers hat to boss fights but today I'
 ### Teaching the player about a newly acquired mechanic
 
 ![Desktop View](/assets/img/week-1/dodongo.jpg){: width="445" height="250" }
+_King Dodongo from The Legend of Zelda: Ocarina of Time._
 
-Bosses often act as a skill check for a new ability acquired by the player. Take for instance the game "The legend of Zelda: Ocarina of time", many of the dungeon bosses will take whatever new mechanic the player is given and make it the key to defeating that boss. In this case, let's look quickly at King Dodongo from Dodongo's Cavern.
+Bosses often act as a skill check for a new ability acquired by the player. Take for instance the game The legend of Zelda: Ocarina of time, many of the dungeon bosses will take whatever new mechanic the player is given and make it the key to defeating that boss. In this case, let's look quickly at King Dodongo from Dodongo's Cavern.
 
 This is the second dungeon in the game and at this point the player has very few tools in which they can use to fight back. The tool given in this dungeon are bombs, which the player can place on the ground and after a short delay highlighted by an increasing flashing red telegraph, will explode. This allows the player some skill expression through timing their placement correctly.
 
@@ -38,6 +39,7 @@ As far as my game is concerned, I think multiple skills are not really in scope 
 ### Cycling between different moves
 
 ![Desktop View](/assets/img/week-1/last-judge.avif){: width="800" height="450" }
+_The Last Judge from Hollow Knight: Silksong._
 
 Bosses typically will cycle between a list of available moves, depending on the complexity of the game, this can be true of individual enemies as well. On the player's side of things, they are given a manageable set of moves (I can't stop thinking of a dance/rhythm game here) which will be cycled consistently until the boss is either defeated, or a new phase (next section) is reached.
 
@@ -58,6 +60,7 @@ Ideally each move would test a different player ability (dodging/reacting/shooti
 ### Multiple phases
 
 ![Desktop View](/assets/img/week-1/malenia.webp){: width="790" }
+_Malenia, Blade of Miquella from Elden Ring._
 
 Phases are an extension of different moves and just make a boss fight feel bigger and more epic for the player. Early game bosses won't typically have vastly different phases. Often, at a specific health breakpoint, a boss will complete the same moves as the first phases but at an increased speed, allowing the player to continue to show mastery with less margin for error.
 
@@ -66,6 +69,7 @@ The Mantis lords from Hollow Knight are a great example of this, after completin
 In the later parts of some games, phases are defined by a completely different moveset to the first phase, sometimes with an entirely new health bar (very common in souls games). Malenia from Elden Ring is well-known for her difficulty and for many players who struggled to get over the difficulty of the first phase of the fight, were presented with an entirely new phase where she had increased mobility and additional moves. At first this phase shift can be overwhelming but in this case (and many of the ones I love), the moveset is an extension of the moves used in the first half that present slightly differently, with an added attack, or are almost completely the same.
 
 ![Desktop View](/assets/img/week-1/waterfowl.gif){: width="360" height="180" }
+_Malenia's most famous move: The waterfowl dance._
 
 That said, this process of extending the first phase and building on that moveset is not always used. The King of Puppets fight from Lies of P does away with this completely. The first phase of the fight is a giant enemy with impactful, heavy, slow moves before transitioning in to a fight against a human sized opponents with nimble, quick, multi-hit moves. My personal preference leans against this kind of boss fight as I believe it punishes a player in the second phase by switching up the fight rather than building on the confidence from mastering the first half. That said  there are no hard rules about how phases should be handled.
 
@@ -77,12 +81,14 @@ In the case of my game, I am currently planning on creating 3 different levels, 
 ### Spawning additional enemies
 
 ![Desktop View](/assets/img/week-1/coneflies.png){: width="790" }
+_The Raging Conchflies from Hollow Knight: Silksong._
 
 There's a lot of value in creating additional challenges to cause the player to split their focus where they have to rely on multitasking between watching the boss, reacting to it's moves while also completing a secondary objective. This was a pattern applied consistently across Hollow Knight: Silksong. However, there are a few things that can make a big difference between a good challenge and frustration.
 
 The first kind van be seen with the Raging Conchflies boss. During the fight, the boss spawns small coneflies that essentially perform the same attack as the bosses, they find a fixed position on one side of the screen and then one after each other, will fly towards the player in a predictable manner, followed immediately by the bosses themselves. This results in a pattern where the player can recognise and consistently react to what is coming at them, rather than having to deal with the chaos of individual entities acting independently.
 
 ![Desktop View](/assets/img/week-1/beastfly.png){: width="400" }
+_Savage Beastfly from Hollow Knight: Silksong._
 
 The other kind can be seen with the Savage Beastfly fight. This fight is viewed incredibly harshly from the playerbase (There is literally a [subreddit dedicated to hating this bossfight](https://www.reddit.com/r/fucksavagebeastfly/) which as of writing has 42000 weekly visitors). Rather than predictable enemies, the additional enemies spawn as part of the bosses move rotation and then act independently of the boss. This approach leads to frustration and taking away agency from the player who can't accurately predict and prepare for what's ahead of them. The unpredictability of different enemies performing moves independent of each other can lead to many unwinnable/undodgeable situations. Although, this example wasn't a popular fight, I do think there is room for this kind of design, as long as the player can feel agency during the fight and that their own skill expression is responsible for their victory as opposed to luck and timing.
 
@@ -91,6 +97,7 @@ I do think this is a great boss pattern and would love to include additional ene
 ### Environmental hazards
 
 ![Desktop View](/assets/img/week-1/lady-butterfly.webp){: width="790" }
+_Lady Butterfly from Sekiro: Shadows die twice._
 
 Although very similar to adds, environmental hazards present an additional challenge for the player and in many cases can be used to help build the emotion of a fight. Some simple examples of this kind of thing are including spikes, lava or moving platforms.
 
@@ -101,6 +108,7 @@ In my case, I would consider using some kind of flying space debris as obstacles
 ### Arena design
 
 ![Desktop View](/assets/img/week-1/saintsword.webp){: width="790" }
+_The Isshin: Sword saint arena from Sekiro: Shadows die twice._
 
 Similar to environmental hazards, the actual arena of a boss fight can add a huge amount of flavour to a boss fight and make it memorable. There's a lot of bosses that came to mind for this one, but the one that really sticks in my mind is Isshin, the sword saint from Sekiro: Shadows die twice.
 
@@ -113,6 +121,7 @@ Unfortunately as much as I'd love to do something like this, it may be outside t
 ### Telegraphs
 
 ![Desktop View](/assets/img/week-1/ffxiv-boss.jpg){: width="790" }
+_A FFXIV raid showing arena warnings on the floor (I don't know which boss this is)._
 
 In order for a boss fight to feel fair, a player must feel like they have the opportunity to react in a reasonable amount of time and have some sense of what's coming. The two main ways that telegraphs are presented are with arena warnings and then wind up animations.
 
@@ -127,6 +136,7 @@ Telegraphs are universally useful and I plan to make use of arena warning for at
 ### Hit responsiveness
 
 ![Desktop View](/assets/img/week-1/nergigante.png){: width="790" }
+_An injured Nergigante flees from a player in Monster Hunter: World._
 
 In most games, an enemy reacting to the actions of a player is important to show the player that what they are doing has impact and that the game is recognising their actions. The games that do this the best have to be the Monster Hunter series.
 
@@ -141,6 +151,7 @@ I plan to make use of the flashing enemy on hit and a deteriorating model (proba
 ### Scale
 
 ![Desktop View](/assets/img/week-1/titan-ffxvi.webp){: width="790" }
+_Titan from Final Fantasy XVI._
 
 Scale through the environment or the opponent is another element that builds a memorable fight. Titan in Final Fantasy XVI has a sequence of cutscenes that really show off the size difference as the player is forced to run at high speed towards the mountain of a boss.
 
@@ -151,6 +162,7 @@ I do plan to make the final boss of the game feel extra big in an effort to buil
 ### Story implications + Build up
 
 ![Desktop View](/assets/img/week-1/shodan.avif){: width="790" }
+_SHODAN, the primary antagonist from System Shock II._
 
 The last point I'll talk about is how the player feels about a fight in relation to the game as a whole. Many games will give the player a reason to buy in to the stakes of their game world and the build up to the final battle with a main antagonist. Some examples are the boss killing the protagonist's family and friends, constantly taunting the player or otherwise just making their presence felt throughout the game.
 
