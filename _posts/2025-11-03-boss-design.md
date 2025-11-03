@@ -55,7 +55,7 @@ Ideally each move would test a different player ability (dodging/reacting/shooti
 
 ### Multiple phases
 
-![Desktop View](/assets/img/week-1/malenia.webp){: width="690" height="388" }
+![Desktop View](/assets/img/week-1/malenia.webp){: width="790" }
 
 Phases are an extension of different moves and just make a boss fight feel bigger and more epic for the players. A lot of the time, early game bosses won't have vastly different phases, a pattern sometimes used is at a specific health breakpoint, they will complete the same moves as the first phases but at an increased speed, allowing the player to continue to show mastery at an increased speed.
 
@@ -74,8 +74,7 @@ In the case of my game, I am currently planning on creating 3 different levels, 
 
 ### Spawning additional enemies
 
-![Desktop View](/assets/img/week-1/coneflies.png){: width="500" }
-<!-- ![Desktop View](/assets/img/week-1/coneflies.png){: width="1233" height="694" } -->
+![Desktop View](/assets/img/week-1/coneflies.png){: width="790" }
 
 There's a lot of value in creating additional challenges to cause the player to split their focus where they have to rely on multitasking between watching the boss, reacting to it's moves while also completing a secondary objective. This was a pattern applied consistently across Hollow Knight: Silksong. There are a few things that can make a big difference between a good challenge and frustration.
 
@@ -83,13 +82,84 @@ The first kind is the way the Raging Conchflies boss is executed. During the fig
 
 ![Desktop View](/assets/img/week-1/beastfly.png){: width="400" }
 
-The other kind can be seen with the Savage Beastfly fight. This fight is viewed incredibly differently from the playerbase (There is literally a [subreddit dedicated to hating this bossfight](https://www.reddit.com/r/fucksavagebeastfly/) which as of writing has 42000 weekly visitors). Rather than predictable enemies, the additional enemies spawn as part of the bosses move rotation and then act independently of the boss. This approach leads to frustration and taking away agency from the player who can't accurately predict and prepare what's ahead of them as the unpredictability of different enemies performing moves regardless of each other can lead to many unwinnable/undodgeable situations. Although this fight in particular wasn't popular,
+The other kind can be seen with the Savage Beastfly fight. This fight is viewed incredibly differently from the playerbase (There is literally a [subreddit dedicated to hating this bossfight](https://www.reddit.com/r/fucksavagebeastfly/) which as of writing has 42000 weekly visitors). Rather than predictable enemies, the additional enemies spawn as part of the bosses move rotation and then act independently of the boss. This approach leads to frustration and taking away agency from the player who can't accurately predict and prepare what's ahead of them as the unpredictability of different enemies performing moves regardless of each other can lead to many unwinnable/undodgeable situations. Although this fight in particular wasn't popular, I do think there is room for this kind of design, as long as the player can feel agency during the fight and feel like their own skill expression is responsible for their victory as opposed to luck and timing on part of individual entities.
+
+I do think this is a great boss pattern and would love to include additional enemies spawning as part of the final boss in my game. I'd love to do something that suggests they are either coming to the defence of the boss OR the boss is the supreme commander and they are acting in service of them.
 
 ### Environmental hazards
 
-Depending on the type of game, the boss arena is a hazard in itself which the player must manage just as much as the boss
+![Desktop View](/assets/img/week-1/lady-butterfly.webp){: width="790" }
+
+Although very similar to adds, environmental hazards present an additional challenge for the player and in many cases can be used to help build the feel/emotion of a fight. Some examples of this kind of thing are including spikes, lava or moving platforms.
+
+The example I'd like to use is Lady Butterfly from Sekiro: Shadows die twice. This is an example that has simple hazards, fire all over the ground that spawns based on falling from above. The cool part about the hazards here is it builds a different kind of tension and storytelling in the fight. It takes place in a burning building and as the fight goes on, more fire/wood spawns on the ground, giving the player a sense that they are fighting against the clock as well as the boss (as far as I recall there isn't an actual timer on the boss fight).
+
+In my case, I would consider using some kind of flying space debris as obstacles for the player. These would be immune to damage (or take a significant and inneficient amount of fire) that creates a dodging challenge for the player while also managing the moveset of the boss.
+
+### Arena design
+
+![Desktop View](/assets/img/week-1/saintsword.webp){: width="790" }
+
+Similar to environmental hazards, the actual arena of a boss fight can add a huge amount of flavour to a boss fight and make it memorable. There's a lot of bosses that came to mind for this one, but the one that really sticks in my mind is Isshin, the sword saint from Sekiro: Shadows die twice.
+
+This fight uses a classic kind of Japanese imagery of a fight between Samurai in a field of long grass under a full moon. As this is a multi-phase fight, the intensity of the environment builds with the intensity of the fight. By the end, there are huge lightning streaks across the sky. Strong winds blow the long flowers/grass in all directions and as a player you feel that the arena is reacting to the intense clash between you and Isshin.
+
+Another type of arena design that can be seen sometimes (for example: The stranger at the start of God of War (new series), or Lady Butterfly again) is a deteriorating arena over the course of the fight. When the world seems to be reacting to the player actions, it leads to a sense of power on the part of the player and tells an epic story for the course of the fight.
+
+Unfortunately as much as I'd love to do something like this, it may be outside the scope of a small game 1, but I want to recognise the importance of good arena design and how it can make a fight more memorable for the player.
 
 ### Telegraphs
 
-### Hit registration
+![Desktop View](/assets/img/week-1/ffxiv-boss.jpg){: width="790" }
 
+In order for a boss fight to feel fair, a player must feel like they have the opportunity to react in a reasonable amount of time and have some sense of what's coming. The two main ways that telegraphs are presented are with arena warnings and then wind up animations.
+
+In Final Fantasy XIV, raid bosses often have the floor painted with safe or unsafe areas, showing the player where they have to move and then giving them a few seconds to get in to position. This allows players to feel that they had the opportunity and warning if they end up getting hit. If a boss has a sequence of attacks, it can also give them a series of actions in a row to prepare for.
+
+Wind up animations are a staple of the Fromsoft souls game, usually a boss will pull their weapon back slowly before slamming down in front of them. One very important aspect of these animations is that each wind up should look distinctly different from one another. The player can then with practice, understand exactly what attack is coming and react accordingly.
+
+As a final note, I was trying some demos recently for games in progress that featured metroidvania boss fights. Although most of the game felt fun and movement felt good, there was a distinct lack of telegraphs during the boss fight which made me immediately feel like I didn't really want to keep playing. The game didn't really feel like it was giving me a chance to figure it out and I'd be relying on luck or just the timing window after an attack rather than being predictive and being rewarded for being prepared.
+
+Telegraphs are universally useful and I plan to make use of arena warning for attacks that warrant them.
+
+### Hit responsiveness
+
+![Desktop View](/assets/img/week-1/nergigante.png){: width="790" }
+
+In most games, an enemy reacting to the actions of a player is important to show the player that what they are doing has impact and that the game is recognising their actions. The game that does this the best with bosses has to be the Monster Hunter series.
+
+During a fight against a target monster, the monster slowly develops injuries, loses body parts and eventually begins limping. In the screenshot above you can see a Nergigante which has had the end of it's tail removed as a result of all the damage it's taken.
+
+It's important for a player to feel like they're making progress more strongly than just watching a health bar go down. Sometimes this can be done with different phases that change the action but building up injury/damage on the actual model is a great way to make the player feel strong and that they are making progress.
+
+One other aspect of hit responsiveness are the on-hit effects. In games with bigger slower attacks, sometimes the boss will stagger or step back from a big hit. On the other hand, it can make the fight too easy if the boss is interrupted everytime they are hit, but things like splashes of blood or in 2D games, flashing the enemy on hit just to show the player that what they are doing is working can be just as useful.
+
+I plan to make use of the flashing enemy on hit and a deteriorating model (probably just a second one, halfway through the fight). I think hit responsiveness is super important and it makes fights feel so good when the player feels like their actions are being felt by the enemies.
+
+### Scale
+
+![Desktop View](/assets/img/week-1/titan-ffxvi.webp){: width="790" }
+
+Scale through the environment or the opponent is another element that builds a memorable fight. Titan in Final Fantasy XVI has a sequence of cutscenes that really show off the size difference as the player is forced to run at high speed towards the mountain of a boss.
+
+Although scale isn't always applicable depending on the type of game, it's another tool in the toolbox to allow the player to feel powerful and that they have to overcome great odds in a David vs Goliath style battle. However there's not too much to say about how to implement scale as long as the design of the boss itself emphasises the scale difference well. This can often be achieved with big, slow, impactful moves that feel like they would destroy the player in a single hit (even if they don't). Some games that do this quite well are God of War, World of Warcraft and probably the best of them all, Shadow of the Colossus.
+
+I do plan to make the final boss of the game feel extra big in an effort to build a sense of epicness to the final fight, but in a vertical shoot'em up, I think it will be difficult to focus on the scale difference of a large enemy.
+
+### Story implications + Build up
+
+![Desktop View](/assets/img/week-1/shodan.avif){: width="790" }
+
+The last point I'll talk about is how the player feels about a fight in relation to the game as a whole. Many games will give the player a reason to buy in to the stakes of their game world and the build up to the final battle with a main antagonist. Some examples are the boss killing the protagonist's family and friends, constantly taunting the player or otherwise just making their presence felt throughout the game.
+
+A classic example is SHODAN from System Shock II. In this game, the player is trying to defeat a rogue AI who has taken over a starship that has been infected. Throughout the entire game, SHODAN's face appears on screens all over the levels, while constantly taunting the player. Most importantly they are making their presence felt to the player so that when you finally reach the ultimate showdown, you have felt it building so you can put a stop to everything they've done.
+
+This is a harder element to achieve in a shorter, more arcade style game but I'd like to try provide some kind of story reason for the player to want to take down the bosses at the end of each level.
+
+## Conclusions
+
+Rather than taking any of the individual elements to turn something in to nothing. It's the cohesion of all the above points that make for the most memorable and engaging boss fights. As games move forward as a medium, many of these elements become staples and have strong expectations and are requirements for boss fights to feel fun for the player.
+
+With that in mind, bosses are the most exciting part of any video game to me and I want to work hard to incorporate all of the above into my boss designs.
+
+Thanks for taking the time to read!
